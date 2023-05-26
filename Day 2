@@ -15,3 +15,6 @@ git commit -m "message" -- to commit the changes.
 git add -u -- it will add only modified files for staging not new once.
 git restore file-name -- whatever changes we have done will be discarded.
 git commit -a -m "message" -- it will add the changes for staging and commit in single command.
+
+
+https://codeshare.io/DZ1O7E
