@@ -1,0 +1,12 @@
+Brush up about:
+
+1-Internet : external work : Bandhwidth comes from wifi and the request/response goes through underwater submarin lines.
+              internal work : every device has DNS which converts request to IP adress and similarly DNS convert Ip to normal text of Response.
+              
+2-IP v4/v6 : size of v4 is 32 bit(4 bytes) and size of v6 is 128 bit (16 bytes).
+             we can generate 2^32 IP in v4 because of limitation of v4 we are slowley movin to v6 which can generate 2^128 IP's.
+         
+3-Cloud Storage : Cloud storage are servers physical computers. better services.
+
+
+4- protocal : https ( hyper text tansfer protocol).
