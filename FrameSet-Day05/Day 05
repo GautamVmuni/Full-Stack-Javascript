@@ -1,0 +1,14 @@
+Started with FrameSet and iFrame.
+
+FrameSet :
+
+The <frameset> element was typically used as the root element in an HTML document, 
+and it defined the structure and layout of the frames. It had attributes like rows, cols, 
+and border to specify the dimensions and borders of the frames. The <frame> element was used
+as a child of <frameset> to define each individual frame and its contents.
+
+iFrame :
+
+The <iframe> element allows you to display content from another website or a different part
+of the same website within your web page. It's commonly used for embedding videos, maps, 
+social media widgets, advertisements, or any other external content.
