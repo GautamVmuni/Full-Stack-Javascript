@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            height: 500px;
+            width: 1000px;
+        }
+        th, td{
+            text-align: center;
+        }
+        thead{
+            background-color: bisque;
+            height: 40px;
+        }
+        tfoot{
+            height: 30px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <center><table>
+        <caption><h1>Time Table</h1></caption>
+        <colgroup>
+            <col span="1" style="background-color: lightskyblue;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Time/Day</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7:30 AM</td>
+                <td rowspan="2">Math</td>
+                <td>Science</td>
+                <td>Hindi</td>
+                <td rowspan="2">Math</td>
+                <td rowspan="2">Marathi</td>
+            </tr>
+            <tr>
+                <td>8:00 AM</td>
+                <td>English</td>
+                <td>Geography</td>
+            </tr>
+            <tr>
+                <td>8:30 AM</td>
+                <td>History</td>
+                <td>Math</td>
+                <td>History</td>
+                <td rowspan="2">Science</td>
+                <td>Hindi</td>
+            </tr>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Geography</td>
+                <td rowspan="2">P.T</td>
+                <td>Science</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>9:30 AM</td>
+                <td>English</td>
+                <td>Marathi</td>
+                <td>P.T</td>
+                <td>Geography</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <td>10:00 AM</td>
+                <td colspan="5"><b>Lunch</b></td>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>10:30 AM</td>
+                <td rowspan="2">C.Lab</td>
+                <td>Geography</td>
+                <td rowspan="2">S.Lab</td>
+                <td>History</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>History</td>
+                <td>Geography</td>
+                <td rowspan="2">Science</td>
+            </tr>
+            <tr>
+                <td>11:30 AM</td>
+                <td>Science</td>
+                <td>Marathi</td>
+                <td>Math</td>
+                <td>Hindi</td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td colspan="5">Extra Curricular Activities</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6"><b>Note : C.Lab = Computer Lab, S.Lab = Science Lab, P.T = Physical Training.</b></td>
+            </tr>
+        </tfoot>
+    </table></center>
+</body>
+</html>
